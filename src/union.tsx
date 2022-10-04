@@ -1,5 +1,5 @@
 let id: number | string | boolean
-//can assign different types to single variable
+//can assign different types to single variable --union type variant
 
 // id = "234"
 // id= 2446
@@ -10,3 +10,9 @@ let accountDetails = (name:string ,id:number) =>{
 }
 
 accountDetails("thenamehere",868)
+
+function printId(id:string | number){
+    console.log(id)
+}
+
+printId(5647)
