@@ -3,7 +3,6 @@ let fruit : {
     name:String,
     age:Number
 }
-
 fruit = {
     color:"red",
     name:"Fred",
